@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/date_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="yyyy-mm-dd"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/time_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="hh:mm"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/systolic_pressure_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Systolic pressure(mm Hg)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/diastolic_pressure_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Diastolic pressure(mm Hg)"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/heart_rate_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Heart rate"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/comment_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Comment(0-20 characters)"
+        android:inputType="textPersonName"
+        android:maxLength="20" />
+
+
+
+</LinearLayout>

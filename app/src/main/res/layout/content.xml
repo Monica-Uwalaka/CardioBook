@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp">
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:text="Date"
+        android:textSize="12sp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:text="Time"
+        android:textSize="12sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/Systolic_pressure_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:text="Systolic Pressure"
+        android:textSize="12sp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/diastolic_Pressure_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:text="Diastolic Pressure"
+        android:textSize="12sp">
+    </TextView>
+
+
+
+
+    <TextView
+        android:id="@+id/heart_rate_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:text="Heart Rate"
+        android:textSize="12sp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/comment_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:text="Comment"
+        android:textSize="12sp">
+
+    </TextView>
+
+
+
+
+</LinearLayout>
